@@ -19,5 +19,5 @@
    - Input the **a**, **b**, and **c** values from the **Cell Lengths** as the a, b, and c parameters
    - Input the a, b, and c values from the **Cell Angles** as the alpha, beta, and gamma parameters
    - Input the **Cell Volume** value as the volume parameter
-   - Example line: 'XYZToPOSCAR.convert("in/dimethyl_cage_unit_cell_xyz.txt", "out/dimethyl_cage_unit_cell_poscar.txt", 35.291, 17.2056, 35.416, 90, 117.236, 90, 19120.4);'
+   - Example line: `XYZToPOSCAR.convert("in/dimethyl_cage_unit_cell_xyz.txt", "out/dimethyl_cage_unit_cell_poscar.txt", 35.291, 17.2056, 35.416, 90, 117.236, 90, 19120.4);`
 3. Run the `XYZTOPOSCAR` to generate the POSCAR file
