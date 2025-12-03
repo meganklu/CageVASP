@@ -10,6 +10,8 @@
 4. Access the unit cell information
    - In the top-level menu, **Display > More Information > Structure Information**
    - Note the **Cell Lengths**, **Cell Angles**, **Cell Volume**
+5. Make the XYZ file a TXT file
+   - Change the file extension from .xyz to .txt in Finder/File Explorer
 ## Convert XYZ to POSCAR File
 1. Add the XYZ file to the **in** directory
 2. In the **XYZToPOSCAR.java** class, call the `convert()` method in the `main()` method
