@@ -68,10 +68,9 @@ def convert(xyz, poscar):
     except:
         print("Error: check xyz file format");
 
+# Terminal usage
 if __name__ == "__main__":
     if len(sys.argv) == 3:
         convert(sys.argv[1], sys.argv[2]);
     else:
         print("Usage: python xyz_to_poscar.py <xyz> <poscar>");
-
-# convert("../in/zd001_Picture_1.xyz", "../out/zd001_Picture_1.poscar");
