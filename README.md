@@ -1,7 +1,7 @@
 # XYZ to POSCAR Instructions
 ## Mac Instructions
 1. Download the **xyz_to_poscar.py** file.
-    - Recommendation: Create a folder to store this file, the original xyz files, and the converted POSCAR files.
+    - Recommended setup: Create a folder to store this file, the original xyz files, and the converted POSCAR files.
 2. Ensure that Python is on your computer.
    - Open the **Terminal** app.
    - Enter the command: `python --version`.
